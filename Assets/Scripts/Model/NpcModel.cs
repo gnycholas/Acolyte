@@ -4,7 +4,7 @@ using UnityEngine;
 /// Model responsável por guardar dados de movimento e estado do NPC.
 /// Como ScriptableObject, podemos editar no Inspector e reaproveitar valores.
 /// </summary>
-[CreateAssetMenu(menuName = "Model/NPCModel", fileName = "NPCModel")]
+[CreateAssetMenu(menuName = "Model/NpcModel", fileName = "NpcModel")]
 public class NPCModel : ScriptableObject
 {
     [Header("Configurações de Movimento")]

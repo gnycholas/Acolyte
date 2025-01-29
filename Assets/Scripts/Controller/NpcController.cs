@@ -16,7 +16,7 @@ public class NPCController : MonoBehaviour
     {
         npcView = GetComponent<NPCView>();
         agent = GetComponent<NavMeshAgent>();
-    }
+    } 
 
     private void Start()
     {
